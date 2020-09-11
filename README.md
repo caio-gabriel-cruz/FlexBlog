@@ -1,0 +1,1 @@
+FlexBlog is a project with only one goal to train my flexbox
