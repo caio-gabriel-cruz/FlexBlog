@@ -25,6 +25,8 @@ img{
 
 /**/
 
+
+
 /* style superinfo */
 
 .superinfo-bg{
@@ -48,4 +50,48 @@ img{
 
 .superinfo-bg a{
     color: white;
+}
+
+/**/
+
+
+/* style menu */
+
+.menu-bg{
+    background: #2c70ff;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu-logo a{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav ul a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: #122ab2;
 }
